@@ -1,0 +1,274 @@
+
+/* Document title */
+.doc-title, .doc-author {
+  display: block; 
+  float: left;
+}
+.doc-title { 
+  padding: 20px 0 20px 14px; 
+  font-size: 40px; 
+  font-weight: 200; 
+}
+
+.doc-author { 
+  font-size: 12px;
+  color: #999;
+  margin: 53px 0 0;
+}
+.doc-author a { 
+  color: #999;
+}
+
+.doc-info .navbar-text { 
+  padding: 0 15px; 
+}
+
+
+/* Hearder */ 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1:hover a, h2:hover a, h3:hover a, h4:hover a, h5:hover a, h6:hover a { 
+  color: #333; 
+}
+
+/* Common */
+table, table.sourceCode, pre {
+  background: #FCFCFC;
+}
+table tr.header, .dock {
+  background: #F8F8F8;
+}
+
+/* Table */
+table, table tr {
+}
+table {
+  border-radius: 5px;
+  width: 100%;
+}
+table tr {
+  color: #333;
+}
+td, th {
+  padding: 5px 20px;
+  border: 1px solid #E7E7E7;
+}
+
+
+/* Code Highlighting */
+code {
+  white-space: pre;
+}
+pre {
+  font-size: 16px;
+  border-color: #E7E7E7;
+}
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode, td.sourceCode pre {
+  margin: 0; 
+  vertical-align: baseline;
+  border: none; 
+}
+td.sourceCode { 
+  padding-left: 5px; 
+
+}
+table.sourceCode { 
+  width: 100%; 
+  line-height: 100%; 
+  color: #E7E7E7; 
+  border-radius: 5px;
+  border: 1px solid #E7E7E7;
+  margin-bottom: 10px;
+}
+td.lineNumbers {
+  text-align: right; 
+  padding-right: 4px; 
+  padding-left: 4px; 
+  width: 40px;
+}
+td.lineNumbers pre{
+  color: #E7E7E7;
+  border: none; 
+}
+td.lineNumbers pre:hover{
+  color: #708090;
+  border: none; 
+}
+
+img {
+  border-radius: 5px;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* Prism Default */
+code > span.kw { color: #07A; } 
+code > span.dt { color: #07A; } 
+code > span.dv { color: #905; } 
+code > span.bn { color: #905; } 
+code > span.fl { color: #905; } 
+code > span.ch { color: #905; }
+code > span.st { color: #690; }
+code > span.co { color: #708090; }
+code > span.ot { color: #A67F59; } 
+code > span.al { color: #960050; }
+code > span.fu { color: #A67F59; }
+code > span.er { color: #F92672; }
+
+/* Table of content */
+/* Fix scrollspy and affix */ 
+body {
+  font-size: 18px;
+  padding-top: 80px;
+}
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]{ /* Section reffer */
+  padding-top: 100px;
+  margin-top: -80px;
+}
+h1[id]:first-child, /* First section reffer */
+caption[id], /* Table reffer */
+.caption[id], /* Figure reffer */
+.figure[id], /* Figure refer*/
+.footnoteRef[id] /* Footnote reffer */{ 
+  padding-top: 100px;
+  margin-top: -100px;
+}
+.container div.row {
+  margin: 40px 0px 0px 0px;
+}
+.affix {
+  position: fixed;
+  width: 100%;
+}
+nav.navbar li a, nav a.navbar-brand {
+    color: #FFF;
+}
+ul.affix {
+    position: fixed;
+    width: 360px;
+}
+ul.affix-top {
+    position: static;
+}
+ul.affix-bottom {
+    position: absolute;
+}
+.sidenav {
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.sidebar .nav > li > a {
+    color: #333;
+    display: block;
+    padding: 0px 20px 5px 0px;
+}
+.sidebar .nav > li > a:hover, .sidebar .nav > li > a:focus {
+    background: #FFF;
+    color: #07A;
+    text-decoration: none;
+}
+.sidebar .nav > .active > a, .sidebar .nav > .active:hover > a, .sidebar .nav > .active:focus > a {
+    background: transparent;
+    color: #07A;
+}
+.sidebar .nav .nav {
+    display: none;
+}
+.sidebar .nav > li.active .nav {
+    display: block;
+}
+.sidebar .nav .nav {
+    margin-bottom: 8px;
+}
+.sidebar .nav .nav > li > a {
+    font-size: 90%;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+.sidebar .nav .nav .nav > li > a {
+    font-size: 85%;
+    padding-left: 45px;
+}
+.sidebar .nav .nav .nav .nav > li > a {
+    font-size: 80%;
+    padding-left: 55px;
+}
+.sidebar .nav .nav .nav .nav .nav > li > a {
+    padding-left: 65px;
+}
+.sidebar .nav .nav .nav .nav .nav .nav > li > a {
+    padding-left: 75px;
+}
+
+/* Caption for Figuare and Table */
+div.figure img, .caption, table caption {
+  text-align: left;
+}
+table, .caption {
+  margin-bottom: 10px;
+}
+div.figure img {
+  margin: 3px 0px;
+  border: 1px solid #E7E7E7;
+}
+table caption, .caption {
+  font-size: 80%;
+}
+
+/*Caption above the image*/
+p.caption-above {
+  margin-bottom: 0px;
+}
+div.figure img.img-below {
+  margin: 0px 0px 10px 0px;
+}
+
+/* Document footer */
+div.navbar.footer {
+  margin-bottom: 0px;
+  background: #FFF;
+  color: #999;
+  border-top: 1px solid #E5E5E5;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+.doc-footer {
+  padding: 20px 20px 20px 0px;
+  font-size: 14px;
+}
+
+
+/* Full screen and go-to-top button */
+.dock {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 900;
+  display: none;
+}
+
+.dock a:hover {
+/*  background: #E7E7E7; */
+}
+a.glyphicon {
+  padding: 10px;
+  color: #999;
+
+  /* Layout with up-and-down*/
+  float: left; 
+  clear: both; 
+}
+
+/* Link */
+a {
+  color: #07A;
+}
+
+a:hover, a:focus {
+  color: #07A;
+  text-decoration: none;
+}
