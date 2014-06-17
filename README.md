@@ -7,6 +7,7 @@ website: http://www.emuxevans.com
 
 Overview and snapshot
 =====================
+![Fig1 Snapshot](http://a.hiphotos.bdimg.com/album/s%3D1600%3Bq%3D90/sign=ef13943174c6a7efbd26ac20cdca9420/f9198618367adab442ef2aad89d4b31c8701e424.jpg)
 
 This template provide some useful features as following:
 
@@ -16,6 +17,11 @@ This template provide some useful features as following:
 * Go-To-Top and Full-Screen button;
 * [Prism](http://www.prismjs.com) style for Sytax Highlighting;
 * Create reference to Table or Figure easily;
+
+Install Pandoc and excute the command to generate HTML file, and access this generated file with your favourite web browser.
+```{bash}
+$pandoc README.md -o README.html --template template/pandoc --toc 
+```
 
 Why do I create this template
 =============================
@@ -32,15 +38,11 @@ But when I create figure with [R](http://www.r-project.org/), I will use [Knitr]
 
 How it works
 ============
-
+TODO
 
 License
 =======
-
-
-Contact
-=======
-
+TODO
 
 
 Exmaples

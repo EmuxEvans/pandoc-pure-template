@@ -1,12 +1,12 @@
 Description,Done
-NXP-Gateway APP,100
+APP,100
 Data Model,100
 BDD and TDD APP Server programming,10
 SQLite C Interface,50
 SQLite C Autogen,10
 APP Protocol parser,0
 APP Server and client,0
-Integrate to JIPaction,0
-JIPaction supports APP,0
+Integrate to Action,0
+Action supports APP,0
 CI and debug,0
 Autodist ,0

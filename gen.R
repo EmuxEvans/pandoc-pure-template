@@ -57,3 +57,5 @@ knit_hooks$set(utf8 = function(before, options, envir){
 # Generate HTML document
 knit("analysis.Rmd")
 system("pandoc analysis.md -o analysis.html --template template/pandoc --self-contained --toc")
+knit("README.Rmd")
+system("pandoc README.md -o README.html --template template/pandoc --toc")

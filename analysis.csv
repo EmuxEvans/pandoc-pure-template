@@ -1,12 +1,12 @@
 Description,Done
-NXP-Gateway APP服务程序架构设计,100
+APP服务程序架构设计,100
 设计数据库模型,100
 使用BDD和TDD手法开发APP服务程序,10
 编写SQLite C接口,50
 编写SQLite C接口自动生成脚本,10
 编写APP协议封装和解封装接口,0
 编写APP服务程序和客户端程序,0
-将数据库操作接口集成进JIPaction,0
-调整JIPaction程序，使其支持APP操作,0
+将数据库操作接口集成进Action,0
+调整Action程序，使其支持APP操作,0
 进行等于测试和集成测试,0
 编写软件自动化打包与部署方案和脚本,0
