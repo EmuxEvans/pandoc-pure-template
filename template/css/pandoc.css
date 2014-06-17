@@ -13,7 +13,7 @@
 .doc-author { 
   font-size: 12px;
   color: #999;
-  margin: 53px 0 0;
+  margin: 50px 0 0;
 }
 .doc-author a { 
   color: #999;
@@ -86,7 +86,8 @@ td.lineNumbers {
   width: 40px;
 }
 td.lineNumbers pre{
-  color: #E7E7E7;
+  /*color: #E7E7E7;*/
+  color: #708090;
   border: none; 
 }
 td.lineNumbers pre:hover{
@@ -245,12 +246,11 @@ div.navbar.footer {
 /* Full screen and go-to-top button */
 .dock {
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 15px;
+  bottom: 15px;
   z-index: 900;
   display: none;
 }
-
 .dock a:hover {
 /*  background: #E7E7E7; */
 }
