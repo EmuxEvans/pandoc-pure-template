@@ -42,15 +42,14 @@ knit_hooks$set(utf8 = function(before, options, envir){
   if(before)
   {
     figure_name <<- fig_path('', options)
-    CairoPNG(paste(figure_name, sep = ""), width=1400)
+    CairoPNG(figure_name, width=1400)
     showtext.begin()
   }
   else
   { 
     #dev.off(); #Not work, so I move it back to the end of chunk code in Rmd file
     ext = options$fig.ext
-    cmd_rename = paste("mv ", figure_name, " ",  figure_name, ".", ext, sep = "")
-    system(cmd_rename)
+    file.rename(figure_name, paste(figure_name, ".", ext, sep = ""))
   }
 })
 
